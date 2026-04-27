@@ -17,7 +17,14 @@ int main(){
     p3.second = 23234;
     mp.insert(p3);
     // printing name and roll number of map
-    for(pair<string,int> p : mp){
+    // for(pair<string,int> p : mp){
+    //     cout<<p.first<<" "<<p.second<<" ";
+    // }
+
+    // use of auto
+    // inserting new element 
+    mp["KinjalSing"] = 23456;
+    for(auto p : mp){
         cout<<p.first<<" "<<p.second<<" ";
     }
     return 0;
