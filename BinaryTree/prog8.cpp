@@ -11,7 +11,7 @@
         this->val = val;
         this->right = NULL;
         this->left = NULL;
-    }
+    } 
  };
  // pre order traversal
  void display(TreeNode* root){
