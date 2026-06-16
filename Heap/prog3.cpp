@@ -12,7 +12,7 @@ int main(){
         pq.push(arr[i]);
     }
     // printing k smallest element of array
-    for(int i=0;i<k;i++){
+    for(int i=0;i<k;i++){ 
         cout<<pq.top()<<" ";
         pq.pop();
     }
