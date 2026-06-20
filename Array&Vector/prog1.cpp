@@ -1,3 +1,4 @@
+// find the index of the students whose marks is less than 35
 #include<iostream>
 using namespace std;
 int main(){
