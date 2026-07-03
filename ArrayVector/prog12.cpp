@@ -1,4 +1,4 @@
-// Find the value of that element which is not duplicated i the given vector
+// Find not duplicated ele
 // 1 2 3 1 2 3 5
 // Answer - > 5
 #include<iostream>

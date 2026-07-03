@@ -1,4 +1,4 @@
-// Finding the last occurence of the of the particular element in the vector.
+// Finding the last occurence index of the particular element in the vector.
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -20,9 +20,10 @@ int main(){
     cin>>y;
     for(int i = 10;i>0;i--){
         if(v[i]==y){
-            cout<<"The last occurence of the y is at the index of : "<<i;
+            cout<<"The last occurence of the y is at the index of : "<<i;  
             break;
         }
     }
     return 0;
 }
+Note : The best approach is start searching the ele from the last

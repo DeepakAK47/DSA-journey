@@ -9,6 +9,7 @@ int main(){
      v.push_back(4);
     v.push_back(5);
     v.push_back(6);
+    v.pop_back();
      v.push_back(7);
     v.push_back(8);
     v.push_back(9);
@@ -19,4 +20,4 @@ int main(){
     return 0;
 }
 
-// Note -> v.pop_back()  -> It do not change the capacity of the vector. It only changes the size of the vector.
+// Note : both push and pop function operates over ele from the last

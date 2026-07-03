@@ -1,4 +1,4 @@
-// Merging the two sortted vector without using the return function. We have to store the values of all the vector inside the nums1 vector whose length is increased by m+n.(Leetcode - 88)
+// Leetcode : 88    
 #include<iostream>
 #include<vector>
 using namespace std;

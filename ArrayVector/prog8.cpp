@@ -1,4 +1,4 @@
-// Write a program to find the largest of three number of the given vector
+// find first three largest number
 // 1 2 3 4 5 6 7 8 9 10
 
 #include<iostream>
