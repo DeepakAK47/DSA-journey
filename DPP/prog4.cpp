@@ -1,4 +1,5 @@
-// Find the number of minimum ways to reduce n to 0(recursion approach)
+// Find the number of minimum ways to reduce n to 0(recursion approach) 
+// constraints : subtract the original number by maximum number which is present in the given digit ex 27 -> subtract this by 7
 #include<iostream>
 #include<vector>
 #include<climits>
@@ -23,7 +24,7 @@ int f(int n){
         for(int i=0;i<ele.size();i++){
             val = min(val,f(n-ele[i]));
         }
-    return 1 + val; // IMP
+    return 1 + val; // DOUBT
 }
 int main(){
 int n;
