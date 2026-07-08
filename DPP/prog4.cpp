@@ -24,7 +24,7 @@ int f(int n){
         for(int i=0;i<ele.size();i++){
             val = min(val,f(n-ele[i]));
         }
-    return 1 + val; // DOUBT
+    return 1 + val; 
 }
 int main(){
 int n;

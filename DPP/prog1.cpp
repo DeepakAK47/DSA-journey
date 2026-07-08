@@ -1,5 +1,10 @@
+//  -> VVVIMP
 // Find the number of ways to reduce n to 1(Recursively)
-// method 1
+// condition 1 : if n divisible by 2 divide it
+// condition 2 : if n is divisible by 3 divite it by 3
+// else subtrat by n by -1
+
+// method 1(Recursive approach)
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -18,3 +23,4 @@ int main(){
     cout<<f(n)<<" ";
     return 0;
 }
+// Note  1 is added here becasue it takes one step going from original case to min({f(n-1),(n%2==0) ? f(n/2):x,(n%3==0) ? f(n/3):x}); case.
