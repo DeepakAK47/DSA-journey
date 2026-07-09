@@ -27,7 +27,7 @@ int f(int n){
         for(int i=0;i<ele.size();i++){
             val = min(val,f(n-ele[i]));
         }
-    return dp[n] = 1 + val; 
+    return dp[n] = 1 + val;      
 }
 int main(){
 int n;
