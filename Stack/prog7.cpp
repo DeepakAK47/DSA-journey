@@ -1,4 +1,4 @@
-// (*****)
+// IMP
 // WAP to implementation of stack using array (with their all conditions)
 #include<iostream>
 using namespace std;

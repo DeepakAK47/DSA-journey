@@ -1,4 +1,4 @@
-// (*****)
+// IMP
 // WAP to implementation of stack using vector (with their all conditions)
 #include<iostream>
 #include<stack>

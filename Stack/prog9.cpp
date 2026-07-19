@@ -1,4 +1,4 @@
-//(*****)
+//IMP
 // WAP to implementation of stack using LinkList
 #include<iostream>
 using namespace std;

@@ -1,6 +1,6 @@
-//(*******)
-// WAP to find the prev greatest element
-// WAP to next greater element of an array if it does not exit then places -1 at(Solve this using stack data structure)
+-> Try Again
+// WAP to find the next greater element of an array if it does not exit then replace it with -1 at(Solve this using stack data structure) 
+// Solve this in less than o(n*n) T.C
 #include<iostream>
 #include<stack>
 #include<vector>
@@ -15,9 +15,9 @@ int main(){
     }
     cout<<endl;
     int brr[size];
-    brr[0] = -1;
-    st.push(arr[0]);  
-    for(int i = 1;i<size;i++){
+    brr[size-1] = -1;
+    st.push(arr[size-1]);
+    for(int i = size-2;i>=0;i--){
         while(st.size()!=0 && st.top()<=arr[i]){
             st.pop();
         }

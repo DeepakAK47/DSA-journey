@@ -1,6 +1,6 @@
-//(*** )
-// WAP to solve infix expression which also contains bracket also
-// doubt -> This program is unable to solve double digit problem.
+
+Try Again
+// WAP to solve infix expression which also contains brackets
 
 #include<iostream>
 #include<stack>

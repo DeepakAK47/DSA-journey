@@ -1,4 +1,5 @@
-// (***)
+-> try again
+//Statement : Stock Span Problem: For each day's stock price, find the span — how many consecutive days (including today) the price stayed less than or equal to today's price, counting backwards
 // WAP for stock span problem
 // arr[] = {100,80,60,70,60,75,85}
 // output brr[] = {1,1,1,2,1,4,6}

@@ -1,3 +1,4 @@
+// -> This problem can be solved easily using hash map
 // WAP which remove all the duplicate character in a string
 #include<iostream>
 #include<stack>
