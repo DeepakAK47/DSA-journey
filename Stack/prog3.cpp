@@ -1,4 +1,3 @@
-// -> faltu
 // WAP for reversing the given stack
 #include<iostream>
 #include<stack>

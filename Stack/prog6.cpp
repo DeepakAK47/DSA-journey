@@ -1,4 +1,3 @@
-// -> faltu
 // Add a new element at bottom in the stack using recursion
 #include<iostream>
 #include<stack>

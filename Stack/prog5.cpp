@@ -1,4 +1,3 @@
-// doubt
 //(**)
 // Reverse stack recursively
 #include<iostream>
@@ -33,3 +32,4 @@ int main(){
 
 // T.C ==> O(n)
 // S.C ==> O(n)
+

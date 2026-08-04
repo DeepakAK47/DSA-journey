@@ -1,6 +1,5 @@
 //(*******)
-// WAP to find the prev greatest element
-// WAP to next greater element of an array if it does not exit then places -1 at(Solve this using stack data structure)
+// WAP to find the previous greatest element if it does not exits then print -1
 #include<iostream>
 #include<stack>
 #include<vector>
@@ -35,4 +34,6 @@ int main(){
         cout<<brr[i]<<" ";
     }
     return 0;
-}
+} 
+
+// Time Complexity ==> O(n)

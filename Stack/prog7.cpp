@@ -46,6 +46,7 @@ void display(){
     }
 }
 };
+
 int main(){
     Stack st;
     st.top();
