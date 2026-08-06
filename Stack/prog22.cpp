@@ -1,4 +1,3 @@
-Try again
 // WAP to solve the postposfix expression
 #include<iostream>
 #include<stack>

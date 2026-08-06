@@ -1,4 +1,3 @@
-Try Again
 // WAP for solving prefix expression
 #include<iostream>
 #include<string>

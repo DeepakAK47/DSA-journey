@@ -1,4 +1,3 @@
--> Try again
 // IMP
 // WAP to check whether the given string is balance or not
 #include<iostream>
@@ -24,7 +23,7 @@ bool balanceBracket(string str){
     return true;
 }
 int main(){
-    string str = "((()(()))))";
+    string str = "((()(())))";
     cout<<"The given string is : "<<balanceBracket(str);
     return 0;
 }

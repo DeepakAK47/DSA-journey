@@ -1,6 +1,5 @@
--> Try Again
-// WAP to find the next greater element of an array if it does not exit then replace it with -1 at(Solve this using stack data structure) 
-// Solve this in less than o(n*n) T.C
+// (*)
+// WAP to find the next greater(IMP ) element of an array if it does not exit then replace it with -1 
 #include<iostream>
 #include<stack>
 #include<vector>
@@ -35,4 +34,4 @@ int main(){
         cout<<brr[i]<<" ";
     }
     return 0;
-}
+}  
