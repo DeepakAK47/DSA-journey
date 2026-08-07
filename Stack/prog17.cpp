@@ -13,6 +13,7 @@ if(ch=='+') return x2 + x1;
 else if(ch=='-') return x2-x1;
 else if(ch=='*') return x2*x1;
 else if(ch=='/') return x2/x1;
+return 0;
 }
 
 int main(){
