@@ -1,4 +1,4 @@
- // Leetcode Problems : 84(doubt)(L2 1h+40min),239(L3-20min),20(doubt),155(L3-1h,8min ),1944(Stack L3-2min) + 42
+ // Leetcode Problems : 84(doubt)(L2 1h+40min),239(L3-20min),20(doubt),1944(Stack L3-2min), 42
 
  Q. what is the formula for calculating number of sliding windows in an array?
  ANS. n-k+1  
