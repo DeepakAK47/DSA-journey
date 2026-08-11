@@ -11,7 +11,7 @@ int main(){
     q.push(50);
     q.push(60);
     cout<<q.size()<<" ";
-    cout<<q.back()<<" ";  // For printing the last element of queue
-    cout<<q.front()<<" "; // For printig the first element of queue
+    cout<<q.back()<<" "; 
+    cout<<q.front()<<" ";
     return 0;
 }

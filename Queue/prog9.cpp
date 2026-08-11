@@ -1,5 +1,8 @@
 // (*)
 // Reverse the k element of the queue
+// Example : 10 20 30 40 50 60 70 if k =3
+//           30 20 10 40 50 60 70
+
 #include<iostream>
 #include<stack>
 #include<queue>

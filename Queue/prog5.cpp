@@ -1,4 +1,3 @@
-//(***)
 //WAP to implemnet queue using array
 #include<iostream>
 using namespace std;

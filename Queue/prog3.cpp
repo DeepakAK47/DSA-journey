@@ -26,7 +26,7 @@ int main(){
             q1.pop();
         }
         else{
-            q1.push(q1.front());
+            q1.push(q1.front()); // GOOD
             q1.pop();
         }
     }
