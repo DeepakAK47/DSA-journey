@@ -1,4 +1,4 @@
-// Change the name of the student using pointer.
+// Modification in the name
 #include<iostream>
 using namespace std;
 class Student{
@@ -16,11 +16,7 @@ Student(string str,int r,int s){
 int main(){
 Student s("Deepak",49,78);
 cout<<"Student Name is : "<<s.name<<endl;
-Student *ptr = &s;  // Important line
-// (*ptr).name = "Raghav";
-//      or
-ptr->name = "Raghav";
+s.name = "Singh";
 cout<<"Student Name is : "<<s.name<<endl;
     return 0;
 }
-// here [this->]  ==> this is a derefrence operator.

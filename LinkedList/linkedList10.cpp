@@ -1,5 +1,5 @@
-// Determine the size of the given LinkedList
-// ! Important
+//(*)
+// Create a singly LinkedList and sidplay all the elements
 #include<iostream>
 using namespace std;
 class Node{
@@ -29,7 +29,7 @@ int count(Node* head){
     return n;
 }
 int main(){
-Node* a = new Node(10);
+Node* a = new Node(10);  // new keyward allocate memory on the heap
 Node* b = new Node(20);
 Node* c = new Node(30);
 Node* d = new Node(40);

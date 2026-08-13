@@ -30,4 +30,3 @@ e->next = f;
 displayrec(a);
     return 0;
 }
-// Note -> Do not use chatgpt in DSA focus on the logic of the algo.

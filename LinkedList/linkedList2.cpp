@@ -1,4 +1,5 @@
-// Declaration with initialization of the LinkedList(Use of this->)
+// (*)
+// declaration of LinkedList
 #include<iostream>
 using namespace std;
 class Student{
@@ -20,5 +21,3 @@ cout<<"Student rollNo is : "<<s.rollNo<<endl;
 cout<<"Student score is : "<<s.score<<endl;
     return 0;
 }
-
-// this-> It is a pointer

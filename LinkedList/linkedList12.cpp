@@ -1,5 +1,5 @@
+// (*)
 // Adding node at the last position in LinkedList
-// ! Important
 #include<iostream>
 using namespace std;
 // User define data type
