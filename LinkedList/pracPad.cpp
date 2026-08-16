@@ -1,3 +1,4 @@
+// DOUBT : Why is it not printing all the elements of the LinkedList
 #include<iostream>
 using namespace std;
 // user define datatype
@@ -8,7 +9,7 @@ class Node{
     // constructor
     Node(int val){
         this->val = val;
-        next = NULL;
+        this->next = NULL;
     }
 };
 // user define data structure
@@ -36,14 +37,16 @@ class LinkedList{
     // display function
     void display(){
         Node* temp = head;
-        while(temp->next!=NULL){
+        while(temp!=NULL){
             cout<<temp->val<<" ";
+            temp = temp->next;
         }
     }
-    //
 };
 int main(){
 LinkedList ll;
+ll.insertAtBeg(10);
+ll.display();
 ll.insertAtBeg(10);
 ll.display();
     return 0;
