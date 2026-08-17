@@ -1,6 +1,6 @@
 // Display all the sets elements
 #include<iostream>
-#include<unordered_set> // This header file is used for using unordered_set
+#include<unordered_set> //used for using unordered_set
 // Note both unordered_set and set are two different things.
 #include<vector>
 using namespace std;
@@ -19,5 +19,3 @@ cout<<s.size()<<" ";
 
     return 0 ;
 }
-
-// In sets elements are stored in randomwise. So it is not mandatory that it will display all elements in reverse.
