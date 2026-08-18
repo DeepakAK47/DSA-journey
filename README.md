@@ -18,9 +18,8 @@ TOPIC COVERS :
 
 Bucket 2 (Hashmap + Hashset + Binary Tree + Binary Search Tree) 
 
-HASHMAP :
-
-HASHSET :
+Solved problems on Leetcode are : 2442, 2744, 3192, 3913, 242, 1, 1207, 2094, 1814, 500, 3918, 138, 560, 2385, 3925, 3927, 2385, 49, 1657, 1497
+HASHMAP&HASHSET : 
 
 BINARY TREE :
 
