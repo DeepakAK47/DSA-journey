@@ -34,5 +34,3 @@ int main(){
    cout<<"The last occurence of the target value in the given array is : "<<targetValue;
     return 0;
 }
-
-// Note -> It is a good question. I have spent almost 1hour on this problem.
