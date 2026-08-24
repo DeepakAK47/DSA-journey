@@ -13,11 +13,10 @@ int main(){
         }
         else{
             ans = mid;
-            hi = mid-1;  // This is them most important line of the code
+            hi = mid-1;
         }
     }
     cout<<"The smallest missing element of the given number is : "<<ans;
     return 0;
 }
 
-// Note --> Continue further form here.
