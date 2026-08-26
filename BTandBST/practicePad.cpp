@@ -54,6 +54,17 @@ int level(Node* head){
     if(temp==NULL) return 0;
     return 1 + max(level(temp->left),level(temp->right));
 }
+// nth level printing 
+void levelPrint(Node* head,int curr,int target){
+Node* temp = head;
+if(temp==NULL) return;
+else if(curr==target){
+    cout<<temp->val<<" ";
+}
+levelPrint(temp->left,curr+1,target);
+levelPrint(temp->right,curr+1,target);
+}
+
 int main(){
 Node *a = new Node(1);
 Node *b = new Node(2);
@@ -89,4 +100,9 @@ cout<<prodAns<<endl;
 // levels in BT 
 int noLevel = level(a);
 cout<<noLevel<<endl; 
+// print nth level of BT
+levelPrint(a,1,4);
+// print Nodes level by level
+
+return 0;
 }
