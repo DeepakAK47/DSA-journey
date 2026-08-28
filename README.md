@@ -1,6 +1,6 @@
 Leetcode Profile : https://leetcode.com/u/Deepak_singh01082003/
 
-### Bucket 1 (Stack + Queue + LinkedList)
+# Bucket 1 (Stack + Queue + LinkedList)
 
 # STACK :
 
@@ -31,47 +31,48 @@ Solved problems on Leetcode are : 2442, 2744, 3192, 3913, 242, 1, 1207, 2094, 18
 # Binary Search Tree
 -> Leetcode problems : 700,701, 235,98,1038,108,1008,450,669,114
 
-BINARY SEARCH :
+# BINARY SEARCH :
 -> Leetcode : 367, 704, 69, 852, 33, 658, 633, 1011, 875, 2187
-Bucket 3 (GREEDY + GRAPH + DYNAMIC PROGRAMMING)
 
-GREEDY :
+# Bucket 3 (GREEDY + GRAPH + DYNAMIC PROGRAMMING)
 
-GRAPH :
+# GREEDY :
 
-DYNAMIC PROGRAMMING :
+# GRAPH :
 
-
-
-Bucket 4 (FUNDAMENTAL + ARRAY + STRING + TIME COMPLEXITY) 
-
-FUNDAMENTAL :
-
-ARRAY :
-
-STRING :
-
-TIME COMPLEXITY :
+# DYNAMIC PROGRAMMING :
 
 
 
-Bucket 5 (SORTING + SEARCHING + RECURSION)
+# Bucket 4 (FUNDAMENTAL + ARRAY + STRING + TIME COMPLEXITY) 
 
-SORTING :
+# FUNDAMENTAL :
 
-SEARCHING :
+# ARRAY :
 
-RECURSSION :
+# STRING :
+
+# TIME COMPLEXITY :
 
 
 
-Bucket 6 (SPECIAL ALGORITHM + HEAP + BACKTRACKING)
+# Bucket 5 (SORTING + SEARCHING + RECURSION)
 
-SPECIAL ALGORITHM :
+# SORTING :
 
-HEAP :
+# SEARCHING :
 
-BACKTRACKING :
+# RECURSSION :
+
+
+
+# Bucket 6 (SPECIAL ALGORITHM + HEAP + BACKTRACKING)
+
+# SPECIAL ALGORITHM :
+
+# HEAP :
+
+# BACKTRACKING :
 
 
 
