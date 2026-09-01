@@ -1,0 +1,1 @@
+// minimum cost to cut a board into square 
