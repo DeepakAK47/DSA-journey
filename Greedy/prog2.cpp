@@ -1,1 +1,1 @@
-// minimum_product_subset
+// Dijiktra Algorithm
