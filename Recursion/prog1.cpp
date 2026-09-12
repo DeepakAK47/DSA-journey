@@ -4,7 +4,7 @@ using namespace std;
 void display(int num){
     if(num==0) return;
     display(num-1);
-    cout<<num<<" ";  // This is the very important line of the code.
+    cout<<num<<" "; 
 }
 int main(){
     int num;

@@ -1,5 +1,4 @@
 // Generate all the binary string of the length n
-// ***
 #include<iostream>
 #include<string>
 #include<vector>

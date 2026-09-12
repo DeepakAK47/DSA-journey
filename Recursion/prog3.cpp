@@ -13,3 +13,20 @@ int main(){
     cin>>secnum;
    cout<<pow(firstnum,secnum);
 }
+
+// second method
+
+#include<iostream>
+#include<algorithm>
+#include<climits>
+#include<math.h>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    int b;
+    cin>>b;
+    int ans = pow(a,b);
+    cout<<ans;
+    return 0;
+}
