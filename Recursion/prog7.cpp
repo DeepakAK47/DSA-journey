@@ -13,3 +13,22 @@ int main(){
     int fin = fibo(num);
     cout<<"The nth fibonacci term of the given series is : "<<fin;
 }
+
+// method : 2
+
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    vector<int>ans;
+    ans.push_back(1);
+    ans.push_back(1);
+    for(int i=3;i<=n;i++){
+        int sum  = ans[ans.size()-1] + ans[ans.size()-2];
+        ans.push_back(sum);
+    }
+    cout<<ans[ans.size()-1];
+    return 0;
+}

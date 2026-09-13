@@ -13,3 +13,5 @@ int main(){
     cout<<"the factorial product of the given number is : "<<y;
     return 0;
 }
+ 
+
