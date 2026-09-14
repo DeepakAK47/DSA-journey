@@ -14,7 +14,7 @@ void permu(string ans, string str){
     }
 }
 int main(){
-    string str = "abc";
+    string str = "deepak";
     permu("", str);
     return 0;
 }

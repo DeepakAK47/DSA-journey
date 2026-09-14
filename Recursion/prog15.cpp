@@ -1,4 +1,4 @@
-// Finding the number of the ways for reaching point A to D
+// find all possible path to reach from point A to B in n*n grid where n is user input
 // ***
 #include<iostream>
 using namespace std;
@@ -19,8 +19,8 @@ void maze2(int sr,int sc,int er,int ec, string s){
     maze2(sr+1,sc,er,ec,s+'D');
 } 
 int main(){
-    cout<<maze1(1,1,3,3)<<endl;
-    maze2(1,1,3,3,"");
+    cout<<maze1(1,1,4,4)<<endl;
+    maze2(1,1,4,4,"");
 }
 
 

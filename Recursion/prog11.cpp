@@ -45,7 +45,7 @@ int main(){
 
 
 
-continue
+// continue
 // Back to Call 2: Print I -> S ✅ Output 2
 // Call 4: hanoi(1, 'D', 'I', 'S')
 // Step 1: hanoi(0, 'D', 'S', 'I') - Base case, return
