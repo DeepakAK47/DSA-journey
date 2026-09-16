@@ -1,4 +1,4 @@
-// Given number of the stairs and you can climb only one step ot two step at max
+// Given number of the stairs and you can climb only one step to two step at max
 #include<iostream>
 using namespace std;
 int climb(int stair){

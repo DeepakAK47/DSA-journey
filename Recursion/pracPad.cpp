@@ -1,13 +1,16 @@
-// WAP to find whether the given string is pallindrome or not
+// WAP to find all possible path to reach from bottom to top if steps allowed are : 1,2,3
 #include<iostream>
-#include<algorithm>
 using namespace std;
+int climb(int noStairs){
+    if(noStairs==1) return 1;
+    else if(noStairs==2) return 2;
+    else if(noStairs==3) return 4;
+    return climb(noStairs-1) + climb(noStairs-2) + climb(noStairs-3);
+}
 int main(){
-    string str;
-    cin>>str;
-    string revStr = str;
-    reverse(revStr.begin(),revStr.end());
-    if(str==revStr) cout<<"It is palindrome";
-    else cout<<"It is not pallindrome";
+    int noStairs;
+    cin>>noStairs;
+    int p = climb(noStairs);
+    cout<<p;
     return 0;
 }

@@ -16,4 +16,3 @@ int main(){
     }
     return 0;
 }
-// Note --> Lve you Deepak 

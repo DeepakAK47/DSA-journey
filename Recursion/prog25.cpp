@@ -1,4 +1,5 @@
 // Find the number of the ways to climb on the stair if 1 or 2 or 3 jumps are allowed
+// (*)
 #include<iostream>
 using namespace std;
 int climb(int stair){
