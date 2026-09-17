@@ -15,7 +15,30 @@ int main(){
     printSubset("",str);
 }
 
+// method : 2
 
+// calculate all possible subset of string
+#include<iostream>
+#include<vector>
+using namespace std;
+void subset(string s,string str,vector<string>&ans){
+    if(str==""){
+        ans.push_back(s);
+        return;
+    }
+    char ch = str[0];
+    subset(s+ch,str.substr(1),ans);
+    subset(s,str.substr(1),ans);
+}
+int main(){
+    string str = "abc";
+    vector<string>ans;
+    subset("",str,ans);
+    for(int i=0;i<ans.size();i++){
+        cout<<ans[i] <<" ";
+    }
+    return 0;
+}
  
 // Code Analysis
 // Function Purpose: printSubset(string ans, string original) generates all subsets by making two choices at each character - include it or exclude it.

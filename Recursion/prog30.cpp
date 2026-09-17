@@ -1,4 +1,4 @@
-// // Print all the subset of the given string(if string contains the duplicate elemnts also)
+// Print all the subset of the given string(if string contains the duplicate elemnts also)
 // ***
 #include<iostream>
 #include<algorithm>
@@ -28,7 +28,7 @@ void subset(string ans, string original, vector<string>& v, bool flag){
 }
 int main(){
     vector<string> v;
-    string str = "deepak";
+    string str = "aab";
     sort(str.begin(), str.end());
     subset("", str, v, true);
     for(int i = 0; i < v.size(); i++){
@@ -37,5 +37,3 @@ int main(){
     return 0;
 }
 
-
-// Note --> It is a goood problem. I have 3hours on this question.
