@@ -28,7 +28,7 @@ void subset(string ans, string original, vector<string>& v, bool flag){
 }
 int main(){
     vector<string> v;
-    string str = "aab";
+    string str = "aa";
     sort(str.begin(), str.end());
     subset("", str, v, true);
     for(int i = 0; i < v.size(); i++){

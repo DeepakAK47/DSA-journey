@@ -32,11 +32,10 @@ subSeq(arr,size,ans,idx+1);
 
 }
 int main(){
-
     vector<int>ans;
-    int arr[] = {1,2,3,4};
+    int arr[] = {1,2,3};
     int size = sizeof(arr)/sizeof(arr[0]);
     subSeq(arr,size,ans,0);
     return 0;
-}
+}   
   

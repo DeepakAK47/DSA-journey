@@ -1,19 +1,20 @@
-// Finding the subset of the string by recursion
-#include<iostream>
-using namespace std;
-void printSubset(string ans, string original){
-    if(original==""){
-        cout<<ans<<endl;
-        return ;
-    }
-    char ch = original[0];
-    printSubset(ans+ch,original.substr(1));
-    printSubset(ans,original.substr(1));
-}
-int main(){
-    string str = "aba"; 
-    printSubset("",str);
-}
+// // Finding the subset of the string by recursion
+// // (*)
+// #include<iostream>
+// using namespace std;
+// void printSubset(string ans, string original){
+//     if(original==""){
+//         cout<<ans<<endl;
+//         return ;
+//     }
+//     char ch = original[0];
+//     printSubset(ans+ch,original.substr(1));
+//     printSubset(ans,original.substr(1));
+// }
+// int main(){
+//     string str = "aba"; 
+//     printSubset("",str);
+// }
 
 // method : 2
 
@@ -31,7 +32,7 @@ void subset(string s,string str,vector<string>&ans){
     subset(s,str.substr(1),ans);
 }
 int main(){
-    string str = "abc";
+    string str = "aaa";
     vector<string>ans;
     subset("",str,ans);
     for(int i=0;i<ans.size();i++){
