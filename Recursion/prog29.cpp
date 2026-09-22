@@ -1,19 +1,4 @@
-//*** Print all the subsequence of length k from first n natural numbers.
-// Note All Subsequences of length 3 from [1,2,3,4,5]:
-// To find subsequences of length 3, I need to choose 3 elements while maintaining their original order.
-
-// Complete List:
-// [1,2,3] - positions (0,1,2)
-// [1,2,4] - positions (0,1,3)
-// [1,2,5] - positions (0,1,4)
-// [1,3,4] - positions (0,2,3)
-// [1,3,5] - positions (0,2,4)
-// [1,4,5] - positions (0,3,4)
-// [2,3,4] - positions (1,2,3)
-// [2,3,5] - positions (1,2,4)
-// [2,4,5] - positions (1,3,4)
-// [3,4,5] - positions (2,3,4)
-// Note -->  All the element must maintain their relative order.
+// WAP to print all the subsequence of the given array
 
 #include<iostream>
 #include<vector>
@@ -39,3 +24,18 @@ int main(){
     return 0;
 }   
   
+// Note All Subsequences of length 3 from [1,2,3,4,5]:
+// To find subsequences of length 3, I need to choose 3 elements while maintaining their original order.
+
+// Complete List:
+// [1,2,3] - positions (0,1,2)
+// [1,2,4] - positions (0,1,3)
+// [1,2,5] - positions (0,1,4)
+// [1,3,4] - positions (0,2,3)
+// [1,3,5] - positions (0,2,4)
+// [1,4,5] - positions (0,3,4)
+// [2,3,4] - positions (1,2,3)
+// [2,3,5] - positions (1,2,4)
+// [2,4,5] - positions (1,3,4)
+// [3,4,5] - positions (2,3,4)
+// Note -->  All the element must maintain their relative order.

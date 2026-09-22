@@ -14,11 +14,26 @@ void permu(string ans, string str){
     }
 }
 int main(){
-    string str = "deepak";
+    string str = "abc";
     permu("", str);
     return 0;
 }
 
+// method : 2
+
+#include<iostream>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main(){
+    string str = "aba";
+    sort(str.begin(),str.end());
+    do{
+        cout<<str<<" ";
+    }
+    while(next_permutation(str.begin(),str.end()));
+    return 0;
+}
 
 
 // Dry run
