@@ -32,7 +32,7 @@ vector<int>dp;
 
 void getDigit(int n,vector<int>&digits){
     while(n>0){
-        if(n!=0){
+        if(n%10!=0){
             digits.push_back(n%10);
         }
         n = n/10;
@@ -49,7 +49,7 @@ int ans(int n){
     for(int i=0;i<digits.size();i++){
         result = min(result,n-digits[i]);
     }
-    return dp[n] = 1+result;
+    return dp[n] = 1+ans(result);
     }
 
 int main(){
