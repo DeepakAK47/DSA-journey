@@ -1,2 +1,2 @@
 Leetcode : 509,746,62,63,980,198,397,2571,322,568,CSES(Minimum Coin),CSES(Dice Combination),1155,mcoins(CSES),Roy and Coin boxes(HackerEarth),
-MCM(Marix Chain Multiplication problem), mixture(Space online judge),63,64
+MCM(Marix Chain Multiplication problem), mixture(Space online judge),63,64,L-Deque(Atcoder),Mancunian and K ordered LCS(HAckerEarth),1143,188,123
