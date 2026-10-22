@@ -1,4 +1,5 @@
 // Implementation of graph using adjacent list
+// Note : bi_dir = true
 #include<iostream>
 #include<list>
 #include<vector>
@@ -6,10 +7,8 @@ using namespace std;
 vector<list<int>>graph;
 //
 void add_edge(int src,int dest,bool bi_dir = true){
-    // for directed graph
     graph[src].push_back(dest);
-    // for undirected grapg
-    if(bi_dir){
+    if(bi_dir==true){
         graph[dest].push_back(src);
     }
 }
@@ -27,7 +26,7 @@ int main(){
     // input number of verices
     int v;
     cin>>v;
-    graph.resize(v,list<int>());
+    graph.resize(v,list<int>()); // resizing the size of vector and push empty list in each box of vector
     // input number of edges
     int e;
     cin>>e;
