@@ -1,70 +1,74 @@
-Leetcode Profile : https://leetcode.com/u/Deepak_singh01082003/
+# DSA Journey
 
-# Bucket 1 (Stack + Queue + LinkedList)
+LeetCode profile: [Deepak_singh01082003](https://leetcode.com/u/Deepak_singh01082003/)
 
-# STACK :
+## Bucket 1: Stack, Queue, and Linked List
 
-# QUEUE :
+### Stack
 
-# LINKEDLIST :
-1. Solved problems on Leetcode platform are : 237,287,876,19,141,142,61,83,2326,21,23,148,86,328,206,234,92,143,725,2058,2057,2074,138,430
-TOPIC COVERS :
-2. Singly LinkedList
-3. Doubly LinkedList
-4. Circular LinkedList
-5. Implementation of LinkedList using Array, Vector
+### Queue
 
+### Linked List
 
+- Solved LeetCode problems: `237`, `287`, `876`, `19`, `141`, `142`, `61`, `83`, `2326`, `21`, `23`, `148`, `86`, `328`, `206`, `234`, `92`, `143`, `725`, `2058`, `2057`, `2074`, `138`, `430`
+- Topics covered:
+  - Singly linked list
+  - Doubly linked list
+  - Circular linked list
+  - Implementation of a linked list using an array and vector
 
-### Bucket 2 (Hashmap + Hashset + Binary Tree&Binary Search Tree + Binary Search) 
+## Bucket 2: Hash Map, Hash Set, Binary Tree, Binary Search Tree, and Binary Search
 
-# HASHMAP&HASHSET : 
-1. Solved problems on Leetcode are : 2442, 2744, 3192, 3913, 242, 1, 1207, 2094, 1814, 500, 3918, 138, 560, 2385, 3925, 3927, 2385, 49, 1657, 1497
-2. Implementation of unordered_set, ordered_set, unordered_map, ordered_map
+### Hash Map and Hash Set
 
-# BINARY TREE :
-1. Leetcode problems : 543,100,226,257,236,144,94,145,102,103,199,113,437,105
-2. BFS/DFS traversal
-3. sum/product/size/max/min value calculation of node
-4. implementation of tree form scratch
+- Solved LeetCode problems: `2442`, `2744`, `3192`, `3913`, `242`, `1`, `1207`, `2094`, `1814`, `500`, `3918`, `138`, `560`, `2385`, `3925`, `3927`, `2385`, `49`, `1657`, `1497`
+- Implementation of `unordered_set`, `ordered_set`, `unordered_map`, and `ordered_map`
 
-# Binary Search Tree
-1. Leetcode problems : 700,701, 235,98,1038,108,1008,450,669,114
+### Binary Tree
 
-# BINARY SEARCH :
-1. Leetcode : 367, 704, 69, 852, 33, 658, 633, 1011, 875, 2187
+- Solved LeetCode problems: `543`, `100`, `226`, `257`, `236`, `144`, `94`, `145`, `102`, `103`, `199`, `113`, `437`, `105`
+- BFS and DFS traversal
+- Sum, product, size, maximum value, and minimum value calculations for nodes
+- Implementation of a tree from scratch
 
-# Bucket 3 (GREEDY + GRAPH + DYNAMIC PROGRAMMING)
+### Binary Search Tree
 
-# GREEDY :  
-1. Leetcode problems : 1005,1710,881,2182,3963,3964,3965,3966,88,3443,3968,3969,3970,3971,781,253,252,56,435,452,480,88,3974,3975,3976
+- Solved LeetCode problems: `700`, `701`, `235`, `98`, `1038`, `108`, `1008`, `450`, `669`, `114`
 
-# GRAPH :
-1. Implementation of Graph using Adjacency List and Adjacency Matrix
-2. Implentation of graph using map
-3. Directed and Undirected Graph
-4. Weighted and Unweighted Graph
-5. Traversal of Graph using BFS and DFS
+### Binary Search
 
-# DYNAMIC PROGRAMMING :  
-# 🧩 Dynamic Programming Practice (DPP)
+- Solved LeetCode problems: `367`, `704`, `69`, `852`, `33`, `658`, `633`, `1011`, `875`, `2187`
 
-A curated collection of Dynamic Programming problems solved across LeetCode, CSES, AtCoder, HackerEarth, SPOJ, and more — organized for structured revision and interview preparation.
+## Bucket 3: Greedy, Graph, and Dynamic Programming
 
----
+### Greedy
 
-## 📌 About
+- Solved LeetCode problems: `1005`, `1710`, `881`, `2182`, `3963`, `3964`, `3965`, `3966`, `88`, `3443`, `3968`, `3969`, `3970`, `3971`, `781`, `253`, `252`, `56`, `435`, `452`, `480`, `88`, `3974`, `3975`, `3976`
 
-This repository contains my solutions to a wide range of Dynamic Programming problems, from classic patterns (Knapsack, LCS, MCM) to advanced topics (Digit DP, Bitmask DP, Probability DP, Grid DP). The goal is to build strong problem-solving intuition and maintain a clean, reusable reference for interviews and competitive programming.
+### Graph
 
----
+- Implementation of a graph using an adjacency list and adjacency matrix
+- Implementation of a graph using a map
+- Directed and undirected graphs
+- Weighted and unweighted graphs
+- BFS and DFS graph traversal
 
-## 📂 Problem Index
+### Dynamic Programming
 
-### 🟢 LeetCode
+#### Dynamic Programming Practice
+
+A curated collection of dynamic programming problems solved across LeetCode, CSES, AtCoder, HackerEarth, SPOJ, and more, organized for structured revision and interview preparation.
+
+##### About
+
+This repository contains solutions to a wide range of dynamic programming problems, from classic patterns such as Knapsack, LCS, and MCM to advanced topics such as Digit DP, Bitmask DP, Probability DP, and Grid DP. The goal is to build strong problem-solving intuition and maintain a reusable reference for interviews and competitive programming.
+
+##### Problem Index
+
+###### LeetCode
 
 | # | Problem | Pattern |
-|---|---|---|
+| --- | --- | --- |
 | 509 | Fibonacci Number | Linear DP |
 | 746 | Min Cost Climbing Stairs | Linear DP |
 | 62 | Unique Paths | Grid DP |
@@ -84,45 +88,43 @@ This repository contains my solutions to a wide range of Dynamic Programming pro
 | 122 | Best Time to Buy and Sell Stock II | State DP |
 | 123 | Best Time to Buy and Sell Stock III | State DP |
 
-### 🟡 CSES
+###### CSES
 
 | Problem | Pattern |
-|---|---|
+| --- | --- |
 | Minimum Coin | Unbounded Knapsack |
 | Dice Combinations | Partition DP |
 | mcoins (Minimizing Coins) | Unbounded Knapsack |
 
-### 🟠 AtCoder
+###### AtCoder
 
 | Problem | Pattern |
-|---|---|
+| --- | --- |
 | L-Deque | Interval DP |
 
-### 🔵 HackerEarth
+###### HackerEarth
 
 | Problem | Pattern |
-|---|---|
+| --- | --- |
 | Roy and Coin Boxes | Prefix Sum + DP |
 | Mancunian and K-Ordered LCS | LCS Variant |
 
-### 🟣 SPOJ
+###### SPOJ
 
 | Problem | Pattern |
-|---|---|
+| --- | --- |
 | Mixture | MCM Variant |
 
-### 🟤 Others
+###### Others
 
 | Problem | Pattern |
-|---|---|
+| --- | --- |
 | MCM (Matrix Chain Multiplication) | Interval DP |
-| GNYR09F – Adjacent Bit Counts | Digit DP |
+| GNYR09F - Adjacent Bit Counts | Digit DP |
 | Icoins | Probability DP |
 | 688 | Knight Probability in Chessboard |
 
----
-
-## 🧠 Patterns Covered
+##### Patterns Covered
 
 - Linear DP
 - Grid DP
@@ -136,89 +138,60 @@ This repository contains my solutions to a wide range of Dynamic Programming pro
 - Probability DP
 - Partition DP
 
----
+##### Tech Stack
 
-## 🛠️ Tech Stack
-
-- **Language:** C++ 
+- **Language:** C++
 - **Platforms:** LeetCode, CSES, AtCoder, HackerEarth, SPOJ
 - **Concepts:** Memoization (Top-Down), Tabulation (Bottom-Up), Space Optimization
 
----
-
-## 🚀 How to Use
+##### How to Use
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    ```
+
 2. Navigate to the problem folder.
 3. Open the solution file (`.cpp` or `.py`).
-4. Run locally or paste into the respective online judge.
+4. Run the solution locally or paste it into the respective online judge.
 
----
+##### Progress Tracker
 
-## 📈 Progress Tracker
+- Total problems solved: **30+**
+- Focus areas: LCS, Knapsack, MCM, Digit DP, Grid DP
+- Ongoing: Adding more advanced DP problems
 
-- ✅ Total Problems Solved: **30+**
-- 🎯 Focus Areas: LCS, Knapsack, MCM, Digit DP, Grid DP
-- 📅 Ongoing: Adding more advanced DP problems
-
----
-
-## 📚 References
+##### References
 
 - [LeetCode](https://leetcode.com/)
 - [CSES Problem Set](https://cses.fi/problemset/)
 - [AtCoder](https://atcoder.jp/)
 - [HackerEarth](https://www.hackerearth.com/)
 - [SPOJ](https://www.spoj.com/)
-   
 
+## Bucket 4: Fundamentals, Arrays, Strings, and Time Complexity
 
+### Fundamentals
 
+### Array
 
-# Bucket 4 (FUNDAMENTAL + ARRAY + STRING + TIME COMPLEXITY) 
+### String
 
-# FUNDAMENTAL :
+### Time Complexity
 
-# ARRAY :
+## Bucket 5: Sorting, Searching, and Recursion
 
-# STRING :
+### Sorting
 
-# TIME COMPLEXITY :
+### Searching
 
+- Solved LeetCode problems: `78`, `39`, `22`, `779`, `38`, `60`, `29`, `39`, `1539`
 
+## Bucket 6: Special Algorithms, Heap, and Backtracking
 
-# Bucket 5 (SORTING + SEARCHING + RECURSION)
+### Special Algorithms
 
-# SORTING :
+### Heap
 
-# SEARCHING :
-1. Leetcode : 78,39,22,779,38,60,29,39,1539
-
-
-# Bucket 6 (SPECIAL ALGORITHM + HEAP + BACKTRACKING)
-
-# SPECIAL ALGORITHM :
-
-# HEAP :
-
-# BACKTRACKING :
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Backtracking
