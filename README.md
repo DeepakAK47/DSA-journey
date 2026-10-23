@@ -40,6 +40,11 @@ TOPIC COVERS :
 1. Leetcode problems : 1005,1710,881,2182,3963,3964,3965,3966,88,3443,3968,3969,3970,3971,781,253,252,56,435,452,480,88,3974,3975,3976
 
 # GRAPH :
+1. Implementation of Graph using Adjacency List and Adjacency Matrix
+2. Implentation of graph using map
+3. Directed and Undirected Graph
+4. Weighted and Unweighted Graph
+5. Traversal of Graph using BFS and DFS
 
 # DYNAMIC PROGRAMMING :  
 # 🧩 Dynamic Programming Practice (DPP)

@@ -1,4 +1,4 @@
-// implementation of theweighted graph
+// implementation of the weighted undirected graph
 #include<iostream>
 #include<vector>
 #include<list>

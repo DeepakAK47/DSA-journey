@@ -1,12 +1,12 @@
 // Implementation of graph using adjacent list
-// Note : bi_dir = false
+// directed graph
 #include<iostream>
 #include<list>
 #include<vector>
 using namespace std;
 vector<list<int>>graph;
 //
-void add_edge(int src,int dest,bool bi_dir = false){
+void add_edge(int src,int dest,bool bi_dir){
     graph[src].push_back(dest);
     if(bi_dir==true){
         graph[dest].push_back(src);
@@ -34,7 +34,7 @@ int main(){
     while(e!=0){
         int s,d;
         cin>>s>>d;
-        add_edge(s,d);
+        add_edge(s,d,false);
         e--;
     }
     display();
