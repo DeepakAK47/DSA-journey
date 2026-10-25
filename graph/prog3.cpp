@@ -1,4 +1,5 @@
 // implementation of the weighted undirected graph
+// Note : It is a 1 based vertex graph
 #include<iostream>
 #include<vector>
 #include<list>
@@ -12,7 +13,7 @@ void gp_add(int src,int des,int wt,bool bi_dir){
     }
 }
 void display(){
-    for(int i=0;i<graph.size();i++){
+    for(int i=1;i<=graph.size();i++){
         cout<<i<<" --> ";
         for(auto ele : graph[i]){
             cout<<"("<<ele.first<<" "<<ele.second<< ")" << " , ";
@@ -26,7 +27,8 @@ int main(){
     cin>>v;
     int e;
     cin>>e;
-    graph.resize(v,list<pair<int,int>>());
+    graph.clear();
+    graph.resize(v+1,list<pair<int,int>>());
     while(e!=0){
         int src,des,wt;
         cin>>src>>des>>wt;

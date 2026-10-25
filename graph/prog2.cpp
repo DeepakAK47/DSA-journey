@@ -14,7 +14,7 @@ void add_edge(int src,int dest,bool bi_dir){
 }
 // display function
 void display(){
-    for(int i=0;i<graph.size();i++){
+    for(int i=1;i<graph.size();i++){
         cout<<i<<" -> ";
         for(auto ele : graph[i]){
             cout<<ele<<" , ";

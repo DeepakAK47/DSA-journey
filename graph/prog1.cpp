@@ -1,5 +1,6 @@
 // Implementation of graph using adjacent list
 // undirected graph
+// Note : It is a zero based vertex graph
 #include<iostream>
 #include<list>
 #include<vector>
