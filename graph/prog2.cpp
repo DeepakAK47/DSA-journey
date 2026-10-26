@@ -1,5 +1,5 @@
-// Implementation of graph using adjacent list
-// directed graph
+// Implementation of directed graph using adjacent list
+// dZero based index
 #include<iostream>
 #include<list>
 #include<vector>

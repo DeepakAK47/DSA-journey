@@ -1,4 +1,4 @@
-// finding all the path of from src to des 
+// Print all possible path from src to destination for particular vertex using DFS traversal
 #include<iostream>
 #include<vector>
 #include<list>

@@ -1,4 +1,4 @@
-// traversal of graph in DFS
+// Find whether a path exist from src to des for a particulat vertex using DFS traversal
 #include<iostream>
 #include<vector>
 #include<list>
@@ -25,7 +25,6 @@ void display(){
     }
 }
 
-// dfs logic : it checks whether their is a path exist from starting to end or not
 bool dfs(int curr,int end){
     if(curr==end) return true;
     visited.insert(curr);
