@@ -6,44 +6,182 @@ LeetCode profile: [Deepak_singh01082003](https://leetcode.com/u/Deepak_singh0108
 
 ### Stack
 
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 84 | Largest Rectangle in Histogram | Monotonic Stack |
+| 239 | Sliding Window Maximum | Monotonic Deque |
+| 20 | Valid Parentheses | Stack |
+| 1944 | Number of Visible People in a Queue | Monotonic Stack |
+| 42 | Trapping Rain Water | Two Pointers / Stack |
+
 ### Queue
+
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 1700 | Number of Students Unable to Eat Lunch | Queue Simulation |
+| 232 | Implement Queue using Stacks | Stack Simulation |
+| 239 | Sliding Window Maximum | Monotonic Deque |
 
 ### Linked List
 
-- Solved LeetCode problems: `237`, `287`, `876`, `19`, `141`, `142`, `61`, `83`, `2326`, `21`, `23`, `148`, `86`, `328`, `206`, `234`, `92`, `143`, `725`, `2058`, `2057`, `2074`, `138`, `430`
-- Topics covered:
-  - Singly linked list
-  - Doubly linked list
-  - Circular linked list
-  - Implementation of a linked list using an array and vector
+#### Linked List Practice
+
+##### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 237 | Delete Node in a Linked List | Node Deletion |
+| 287 | Find the Duplicate Number | Floyd's Cycle Detection |
+| 876 | Middle of the Linked List | Slow and Fast Pointers |
+| 19 | Remove Nth Node From End of List | Two Pointers |
+| 141 | Linked List Cycle | Floyd's Cycle Detection |
+| 142 | Linked List Cycle II | Floyd's Cycle Detection |
+| 61 | Rotate List | Linked List Manipulation |
+| 83 | Remove Duplicates from Sorted List | Traversal |
+| 2326 | Spiral Matrix IV | Linked List and Matrix Traversal |
+| 21 | Merge Two Sorted Lists | Two-Pointer Merge |
+| 23 | Merge k Sorted Lists | Divide and Conquer / Heap |
+| 148 | Sort List | Merge Sort |
+| 86 | Partition List | Stable Partition |
+| 328 | Odd Even Linked List | Pointer Rewiring |
+| 206 | Reverse Linked List | Iterative Reversal |
+| 234 | Palindrome Linked List | Reversal / Two Pointers |
+| 92 | Reverse Linked List II | Sublist Reversal |
+| 143 | Reorder List | Split, Reverse, and Merge |
+| 725 | Split Linked List in Parts | List Partitioning |
+| 2058 | Find the Minimum and Maximum Number of Nodes Between Critical Points | Critical Points |
+| 2057 | Smallest Index With Equal Value | Array Traversal |
+| 2074 | Reverse Nodes in Even Length Groups | Group Reversal |
+| 138 | Copy List with Random Pointer | Hash Map / Pointer Copy |
+| 430 | Flatten a Multilevel Doubly Linked List | DFS / Pointer Rewiring |
+
+##### Topics Covered
+
+- Singly, doubly, and circular linked lists
+- Linked-list traversal, reversal, merging, and partitioning
+- Pointer manipulation and cycle detection
 
 ## Bucket 2: Hash Map, Hash Set, Binary Tree, Binary Search Tree, and Binary Search
 
 ### Hash Map and Hash Set
 
-- Solved LeetCode problems: `2442`, `2744`, `3192`, `3913`, `242`, `1`, `1207`, `2094`, `1814`, `500`, `3918`, `138`, `560`, `2385`, `3925`, `3927`, `2385`, `49`, `1657`, `1497`
-- Implementation of `unordered_set`, `ordered_set`, `unordered_map`, and `ordered_map`
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 2442 | Count Number of Distinct Integers After Reverse Operations | Hash Set |
+| 2744 | Find Maximum Number of String Pairs | Hash Set |
+| 3192 | Minimum Operations to Make Binary Array Elements Equal to One | Hash Map / Greedy |
+| 3913 | Sort Vowels by Frequency | Frequency Map |
+| 242 | Valid Anagram | Frequency Map |
+| 1 | Two Sum | Hash Map |
+| 1207 | Unique Number of Occurrences | Frequency Map |
+| 2094 | Finding 3-Digit Even Numbers | Hash Set |
+| 1814 | Count Nice Pairs in an Array | Hash Map |
+| 500 | Keyboard Row | Hash Set |
+| 3918 | Sum of Primes Between Number and Its Reverse | Hash Set / Number Theory |
+| 138 | Copy List with Random Pointer | Hash Map |
+| 560 | Subarray Sum Equals K | Prefix Sum / Hash Map |
+| 2385 | Amount of Time for Binary Tree to Be Infected | BFS / Hash Map |
+| 3925 | [Problem title not recorded] | Hash Map |
+| 3927 | [Problem title not recorded] | Hash Map |
+| 49 | Group Anagrams | Hash Map |
+| 1657 | Determine if Two Strings Are Close | Frequency Map |
+| 1497 | Check If Array Pairs Are Divisible by k | Remainder Map |
+
+##### Implementations
+
+- `unordered_set`, `ordered_set`, `unordered_map`, and `ordered_map`
 
 ### Binary Tree
 
-- Solved LeetCode problems: `543`, `100`, `226`, `257`, `236`, `144`, `94`, `145`, `102`, `103`, `199`, `113`, `437`, `105`
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 543 | Diameter of Binary Tree | DFS |
+| 100 | Same Tree | Recursion |
+| 226 | Invert Binary Tree | DFS |
+| 257 | Binary Tree Paths | DFS / Backtracking |
+| 236 | Lowest Common Ancestor of a Binary Tree | DFS |
+| 144 | Binary Tree Preorder Traversal | DFS |
+| 94 | Binary Tree Inorder Traversal | DFS |
+| 145 | Binary Tree Postorder Traversal | DFS |
+| 102 | Binary Tree Level Order Traversal | BFS |
+| 103 | Binary Tree Zigzag Level Order Traversal | BFS |
+| 199 | Binary Tree Right Side View | BFS / DFS |
+| 113 | Path Sum II | DFS / Backtracking |
+| 437 | Path Sum III | Prefix Sum / DFS |
+| 105 | Construct Binary Tree from Preorder and Inorder Traversal | Recursion |
+
+##### Topics Covered
+
 - BFS and DFS traversal
-- Sum, product, size, maximum value, and minimum value calculations for nodes
-- Implementation of a tree from scratch
+- Node sum, product, size, maximum, and minimum calculations
+- Building a binary tree from scratch
 
 ### Binary Search Tree
 
-- Solved LeetCode problems: `700`, `701`, `235`, `98`, `1038`, `108`, `1008`, `450`, `669`, `114`
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 700 | Search in a Binary Search Tree | BST Traversal |
+| 701 | Insert into a Binary Search Tree | BST Insertion |
+| 235 | Lowest Common Ancestor of a Binary Search Tree | BST Properties |
+| 98 | Validate Binary Search Tree | Inorder Traversal |
+| 1038 | Binary Search Tree to Greater Sum Tree | Reverse Inorder |
+| 108 | Convert Sorted Array to Binary Search Tree | Divide and Conquer |
+| 1008 | Construct Binary Search Tree from Preorder Traversal | Recursion |
+| 450 | Delete Node in a BST | BST Deletion |
+| 669 | Trim a Binary Search Tree | BST Properties |
+| 114 | Flatten Binary Tree to Linked List | DFS / Pointer Rewiring |
 
 ### Binary Search
 
-- Solved LeetCode problems: `367`, `704`, `69`, `852`, `33`, `658`, `633`, `1011`, `875`, `2187`
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 367 | Valid Perfect Square | Binary Search |
+| 704 | Binary Search | Classic Binary Search |
+| 69 | Sqrt(x) | Binary Search |
+| 852 | Peak Index in a Mountain Array | Binary Search |
+| 33 | Search in Rotated Sorted Array | Modified Binary Search |
+| 658 | Find K Closest Elements | Binary Search / Two Pointers |
+| 633 | Sum of Square Numbers | Two Pointers / Binary Search |
+| 1011 | Capacity To Ship Packages Within D Days | Answer-Based Binary Search |
+| 875 | Koko Eating Bananas | Answer-Based Binary Search |
+| 2187 | Minimum Time to Complete Trips | Answer-Based Binary Search |
 
 ## Bucket 3: Greedy, Graph, and Dynamic Programming
 
 ### Greedy
 
-- Solved LeetCode problems: `1005`, `1710`, `881`, `2182`, `3963`, `3964`, `3965`, `3966`, `88`, `3443`, `3968`, `3969`, `3970`, `3971`, `781`, `253`, `252`, `56`, `435`, `452`, `480`, `88`, `3974`, `3975`, `3976`
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 1005 | Maximize Sum Of Array After K Negations | Greedy |
+| 1710 | Maximum Units on a Truck | Sorting / Greedy |
+| 881 | Boats to Save People | Two Pointers / Greedy |
+| 2182 | Construct String With Repeat Limit | Greedy / Frequency Count |
+| 88 | Merge Sorted Array | Two Pointers |
+| 3443 | Maximum Manhattan Distance After K Changes | Greedy |
+| 3968 | [Problem title not recorded] | Greedy |
+| 3969 | [Problem title not recorded] | Greedy |
+| 3970 | [Problem title not recorded] | Greedy |
+| 3971 | [Problem title not recorded] | Greedy |
+| 781 | Rabbits in Forest | Counting |
+| 56 | Merge Intervals | Sorting / Greedy |
+| 435 | Non-overlapping Intervals | Sorting / Greedy |
+| 452 | Minimum Number of Arrows to Burst Balloons | Sorting / Greedy |
+| 480 | Sliding Window Median | Two Heaps / Sliding Window |
+| 3974 | [Problem title not recorded] | Greedy |
 
 ### Graph
 
@@ -197,6 +335,13 @@ This repository contains solutions to a wide range of dynamic programming proble
 
 ### Array
 
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 88 | Merge Sorted Array | Two Pointers |
+| 31 | Next Permutation | Array Manipulation |
+
 ### String
 
 ### Time Complexity
@@ -207,7 +352,20 @@ This repository contains solutions to a wide range of dynamic programming proble
 
 ### Searching
 
-- Solved LeetCode problems: `78`, `39`, `22`, `779`, `38`, `60`, `29`, `39`, `1539`
+### Recursion
+
+#### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 78 | Subsets | Backtracking |
+| 39 | Combination Sum | Backtracking |
+| 22 | Generate Parentheses | Backtracking |
+| 779 | K-th Symbol in Grammar | Recursion |
+| 38 | Count and Say | Recursion |
+| 60 | Permutation Sequence | Backtracking / Factorial Number System |
+| 29 | Divide Two Integers | Bit Manipulation |
+| 1539 | Kth Missing Positive Number | Binary Search |
 
 ## Bucket 6: Special Algorithms, Heap, and Backtracking
 
