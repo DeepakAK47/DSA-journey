@@ -47,11 +47,32 @@ LeetCode profile: [Deepak_singh01082003](https://leetcode.com/u/Deepak_singh0108
 
 ### Graph
 
-- Implementation of a graph using an adjacency list and adjacency matrix
-- Implementation of a graph using a map
-- Directed and undirected graphs
-- Weighted and unweighted graphs
-- BFS and DFS graph traversal
+#### Graph Practice
+
+##### Problem Index
+
+| # | Problem | Key |
+| --- | --- | --- |
+| 72 | Edit Distance | Dynamic Programming |
+| 741 | Cherry Pickup | Grid Dynamic Programming |
+| 121 | Best Time to Buy and Sell Stock | Greedy |
+| 733 | Flood Fill | DFS / BFS |
+| 1719 | Number Of Ways to Reconstruct a Tree | Degree Counting / Leaf Removal |
+| 3963 | Create Grid With Exactly One Path | Grid Construction |
+| 841 | Keys and Rooms | DFS / Graph Traversal |
+| 133 | Clone Graph | DFS / BFS / Hash Map |
+| 1034 | Coloring A Border | DFS / Grid Traversal |
+
+- Graph representations:
+  - Adjacency-list representation using `vector` and `list`
+  - Unweighted and weighted graphs
+  - Directed and undirected graphs
+- Graph algorithms:
+  - Breadth-first search (BFS) traversal
+  - Depth-first search (DFS) traversal
+  - Checking whether a path exists between two vertices
+  - Finding all possible paths between two vertices
+  - Finding shortest paths in an unweighted graph with BFS
 
 ### Dynamic Programming
 
