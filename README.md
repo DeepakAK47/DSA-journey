@@ -374,3 +374,31 @@ This repository contains solutions to a wide range of dynamic programming proble
 ### Heap
 
 ### Backtracking
+
+
+### Contests:
+
+1. Warmup Contest 1
+- problem 1 : Lexicographical Numbers
+- Find Unique characters in a string
+- Longest Absolute File Path
+
+2. Warmup Contest 2
+
+- problem 1 : Find the Difference
+- problem 2 : Elliminate Game
+- problem 3 : Perfect Rectangle
+
+3. Weekly Contest 3
+
+- problem 1 : IS Subsequence
+- problem 2 : UTF-8 Validation
+- problem 3 : Decode String
+- problem 4 : Longest Substring with At Least K Repeating Characters
+
+4. Weekly Contest 4
+
+- problem 1 : Rotate Function
+- problem 2 : Integer Replacement
+- problem 3 : Random Pick Index
+- problem 4 : Evaluate Division
