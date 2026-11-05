@@ -283,51 +283,6 @@ This repository contains solutions to a wide range of dynamic programming proble
 | Icoins | Probability DP |
 | 688 | Knight Probability in Chessboard |
 
-##### Patterns Covered
-
-- Linear DP
-- Grid DP
-- Interval DP
-- Knapsack (0/1, Unbounded)
-- Longest Common Subsequence (LCS)
-- Matrix Chain Multiplication (MCM)
-- Digit DP
-- Bitmask DP
-- State Machine DP
-- Probability DP
-- Partition DP
-
-##### Tech Stack
-
-- **Language:** C++
-- **Platforms:** LeetCode, CSES, AtCoder, HackerEarth, SPOJ
-- **Concepts:** Memoization (Top-Down), Tabulation (Bottom-Up), Space Optimization
-
-##### How to Use
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   ```
-
-2. Navigate to the problem folder.
-3. Open the solution file (`.cpp` or `.py`).
-4. Run the solution locally or paste it into the respective online judge.
-
-##### Progress Tracker
-
-- Total problems solved: **30+**
-- Focus areas: LCS, Knapsack, MCM, Digit DP, Grid DP
-- Ongoing: Adding more advanced DP problems
-
-##### References
-
-- [LeetCode](https://leetcode.com/)
-- [CSES Problem Set](https://cses.fi/problemset/)
-- [AtCoder](https://atcoder.jp/)
-- [HackerEarth](https://www.hackerearth.com/)
-- [SPOJ](https://www.spoj.com/)
 
 ## Bucket 4: Fundamentals, Arrays, Strings, and Time Complexity
 
