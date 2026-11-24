@@ -322,7 +322,7 @@ This repository contains solutions to a wide range of dynamic programming proble
 | 29 | Divide Two Integers | Bit Manipulation |
 | 1539 | Kth Missing Positive Number | Binary Search |
 
-## Bucket 6: Special Algorithms, Heap, and Backtracking
+## Bucket 6: Special Algorithms, Heap, Backtracking, String
 
 ### Special Algorithms
 
@@ -330,6 +330,8 @@ This repository contains solutions to a wide range of dynamic programming proble
 
 ### Backtracking
 
+### String
+Leetcode : 2299,
 
 ### Contests:
 
