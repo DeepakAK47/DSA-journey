@@ -335,8 +335,8 @@ Leetcode : 2299,
 
 ### Participated contest are : 
 
-Warmup Contest 1
-Warmup Contest 2
-Weekly Contest 3
-Weekly Contest 4
-Weekly Contest 5
+- Warmup Contest 1
+- Warmup Contest 2
+- Weekly Contest 3
+- Weekly Contest 4
+- Weekly Contest 5
