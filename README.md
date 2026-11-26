@@ -334,7 +334,7 @@ This repository contains solutions to a wide range of dynamic programming proble
 Leetcode : 2299,
 
 ### Bit Manipulations : 
-Leetcode : 405, 
+Leetcode : 405, 136, 191
 
 ### Participated contest are : 
 
