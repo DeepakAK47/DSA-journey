@@ -333,6 +333,9 @@ This repository contains solutions to a wide range of dynamic programming proble
 ### String
 Leetcode : 2299,
 
+### Bit Manipulations : 
+Leetcode : 405, 
+
 ### Participated contest are : 
 
 - Warmup Contest 1
