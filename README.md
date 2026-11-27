@@ -3,133 +3,21 @@
 LeetCode profile: [Deepak_singh01082003](https://leetcode.com/u/Deepak_singh01082003/)
 
 ## Bucket 1: Stack, Queue, and Linked List
-
 ### Stack
-
-#### Problem Index
-
-| # | Problem | Key |
-| --- | --- | --- |
-| 84 | Largest Rectangle in Histogram | Monotonic Stack |
-| 239 | Sliding Window Maximum | Monotonic Deque |
-| 20 | Valid Parentheses | Stack |
-| 1944 | Number of Visible People in a Queue | Monotonic Stack |
-| 42 | Trapping Rain Water | Two Pointers / Stack |
-
+- LC problems : 84,239,20,1944,42
 ### Queue
-
-#### Problem Index
-
-| # | Problem | Key |
-| --- | --- | --- |
-| 1700 | Number of Students Unable to Eat Lunch | Queue Simulation |
-| 232 | Implement Queue using Stacks | Stack Simulation |
-| 239 | Sliding Window Maximum | Monotonic Deque |
-
+- LC Problems : 1700,232,239
 ### Linked List
+- LC Problems : 237,287,876,19,141,142,61,83,2326,21,23,148,86,328,206,234,92,143,725,2028,2057,2074,138,230
 
-#### Linked List Practice
-
-##### Problem Index
-
-| # | Problem | Key |
-| --- | --- | --- |
-| 237 | Delete Node in a Linked List | Node Deletion |
-| 287 | Find the Duplicate Number | Floyd's Cycle Detection |
-| 876 | Middle of the Linked List | Slow and Fast Pointers |
-| 19 | Remove Nth Node From End of List | Two Pointers |
-| 141 | Linked List Cycle | Floyd's Cycle Detection |
-| 142 | Linked List Cycle II | Floyd's Cycle Detection |
-| 61 | Rotate List | Linked List Manipulation |
-| 83 | Remove Duplicates from Sorted List | Traversal |
-| 2326 | Spiral Matrix IV | Linked List and Matrix Traversal |
-| 21 | Merge Two Sorted Lists | Two-Pointer Merge |
-| 23 | Merge k Sorted Lists | Divide and Conquer / Heap |
-| 148 | Sort List | Merge Sort |
-| 86 | Partition List | Stable Partition |
-| 328 | Odd Even Linked List | Pointer Rewiring |
-| 206 | Reverse Linked List | Iterative Reversal |
-| 234 | Palindrome Linked List | Reversal / Two Pointers |
-| 92 | Reverse Linked List II | Sublist Reversal |
-| 143 | Reorder List | Split, Reverse, and Merge |
-| 725 | Split Linked List in Parts | List Partitioning |
-| 2058 | Find the Minimum and Maximum Number of Nodes Between Critical Points | Critical Points |
-| 2057 | Smallest Index With Equal Value | Array Traversal |
-| 2074 | Reverse Nodes in Even Length Groups | Group Reversal |
-| 138 | Copy List with Random Pointer | Hash Map / Pointer Copy |
-| 430 | Flatten a Multilevel Doubly Linked List | DFS / Pointer Rewiring |
-
-##### Topics Covered
-
-- Singly, doubly, and circular linked lists
-- Linked-list traversal, reversal, merging, and partitioning
-- Pointer manipulation and cycle detection
 
 ## Bucket 2: Hash Map, Hash Set, Binary Tree, Binary Search Tree, and Binary Search
-
 ### Hash Map and Hash Set
-
-#### Problem Index
-
-| # | Problem | Key |
-| --- | --- | --- |
-| 2442 | Count Number of Distinct Integers After Reverse Operations | Hash Set |
-| 2744 | Find Maximum Number of String Pairs | Hash Set |
-| 3192 | Minimum Operations to Make Binary Array Elements Equal to One | Hash Map / Greedy |
-| 3913 | Sort Vowels by Frequency | Frequency Map |
-| 242 | Valid Anagram | Frequency Map |
-| 1 | Two Sum | Hash Map |
-| 1207 | Unique Number of Occurrences | Frequency Map |
-| 2094 | Finding 3-Digit Even Numbers | Hash Set |
-| 1814 | Count Nice Pairs in an Array | Hash Map |
-| 500 | Keyboard Row | Hash Set |
-| 3918 | Sum of Primes Between Number and Its Reverse | Hash Set / Number Theory |
-| 138 | Copy List with Random Pointer | Hash Map |
-| 560 | Subarray Sum Equals K | Prefix Sum / Hash Map |
-| 2385 | Amount of Time for Binary Tree to Be Infected | BFS / Hash Map |
-| 3925 | [Problem title not recorded] | Hash Map |
-| 3927 | [Problem title not recorded] | Hash Map |
-| 49 | Group Anagrams | Hash Map |
-| 1657 | Determine if Two Strings Are Close | Frequency Map |
-| 1497 | Check If Array Pairs Are Divisible by k | Remainder Map |
-
-##### Implementations
-
-- `unordered_set`, `ordered_set`, `unordered_map`, and `ordered_map`
-
+LC Problems : 2442,2744,3192,3913,242,1,1207,2094,1814,500,3918,138,560,2385,3925,3927,49,1657,1497
 ### Binary Tree
-
-#### Problem Index
-
-| # | Problem | Key |
-| --- | --- | --- |
-| 543 | Diameter of Binary Tree | DFS |
-| 100 | Same Tree | Recursion |
-| 226 | Invert Binary Tree | DFS |
-| 257 | Binary Tree Paths | DFS / Backtracking |
-| 236 | Lowest Common Ancestor of a Binary Tree | DFS |
-| 144 | Binary Tree Preorder Traversal | DFS |
-| 94 | Binary Tree Inorder Traversal | DFS |
-| 145 | Binary Tree Postorder Traversal | DFS |
-| 102 | Binary Tree Level Order Traversal | BFS |
-| 103 | Binary Tree Zigzag Level Order Traversal | BFS |
-| 199 | Binary Tree Right Side View | BFS / DFS |
-| 113 | Path Sum II | DFS / Backtracking |
-| 437 | Path Sum III | Prefix Sum / DFS |
-| 105 | Construct Binary Tree from Preorder and Inorder Traversal | Recursion |
-
-##### Topics Covered
-
-- BFS and DFS traversal
-- Node sum, product, size, maximum, and minimum calculations
-- Building a binary tree from scratch
-
+LC Problems : 543,100,226,257,236,144,94,145,102,103,199,113,437,105
 ### Binary Search Tree
-
-#### Problem Index
-
-| # | Problem | Key |
-| --- | --- | --- |
+LC Problems : 
 | 700 | Search in a Binary Search Tree | BST Traversal |
 | 701 | Insert into a Binary Search Tree | BST Insertion |
 | 235 | Lowest Common Ancestor of a Binary Search Tree | BST Properties |
@@ -298,15 +186,11 @@ This repository contains solutions to a wide range of dynamic programming proble
 | 31 | Next Permutation | Array Manipulation |
 
 ### String
-
 ### Time Complexity
 
 ## Bucket 5: Sorting, Searching, and Recursion
-
 ### Sorting
-
 ### Searching
-
 ### Recursion
 
 #### Problem Index
