@@ -40,7 +40,7 @@ LC Problems : 88,31,
 ### Time Complexity
 
 ## Bucket 5: Sorting, Searching, and Recursion
-### Sorting  : 406,
+### Sorting  : 406,169,455,1608,2529,119,74,2089,633,1539,268,287,41,
 ### Searching
 ### Recursion
 LC Problems : 78,39,22,779,38,60,29,1539
