@@ -34,7 +34,7 @@ LC Problems : 509,746,62,63,64,980,198,397,2571,322,568,1155,1143,188,1326,121,1
 ### Fundamentals
 ### Array
 LC Problems : 88,31,
-### String : 2299
+### String : 2299,42
 ### Time Complexity
 ### String 
 ### Time Complexity
